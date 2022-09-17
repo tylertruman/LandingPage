@@ -56,15 +56,17 @@ html, body {
   min-height: 0;
 }
 .project-img {
-  border: 1px solid rgb(89, 89, 89);
+  /* border: 1px solid rgb(89, 89, 89); */
+  /* border: 1px solid rgba(0, 0, 0, 0.539); */
   border-bottom: 0px;
 }
 .project-text-card {
   /* background-color: rgba(31, 31, 31, 0.905); */
   /* border-top: 1px solid gray; */
-  background-color: rgb(26, 26, 26);
+  background-color: rgba(0, 0, 0, 0.539);
+  
   color: rgb(255, 255, 255);
-  border: 1px solid rgb(89, 89, 89);
+  /* border: 1px solid rgba(0, 0, 0, 0.539); */
   border-top: 0px;
 }
 .text-darker {
