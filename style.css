@@ -1,0 +1,111 @@
+@media screen and (max-width: 600px) {
+  .hero-text {
+    font-size: 10vw;
+    letter-spacing: .8vw;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#f8cdff,#adedff);
+  }
+  .hero-subtext {
+    font-size: 2.4vw;
+    letter-spacing: 2vw;
+    /* padding-left: 2px;  */
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#f8cdff,#adedff);
+  }
+}
+@media screen and (min-width: 601px) {
+  .hero-text {
+    font-size: 8vw;
+    letter-spacing: .8vw;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#f8cdff,#adedff);
+  }
+  .hero-subtext {
+    font-size: 1.6vw;
+    letter-spacing: 2vw;
+    /* padding-left: 2%;  */
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#f8cdff,#adedff);
+  }
+}
+/* NOTE useful visual debugging tool */
+/* * {
+  outline: 1px solid #f00 !important;
+} */
+html, body {
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  overflow-x: hidden;
+  /* font-family: 'DM Sans', sans-serif !important; */
+}
+.hero-card {
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  min-height: 0;
+}
+.project-img {
+  border: 1px solid rgb(89, 89, 89);
+  border-bottom: 0px;
+}
+.project-text-card {
+  /* background-color: rgba(31, 31, 31, 0.905); */
+  /* border-top: 1px solid gray; */
+  background-color: rgb(26, 26, 26);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(89, 89, 89);
+  border-top: 0px;
+}
+.text-darker {
+  color: rgb(91, 91, 91);
+}
+.text-opacity {
+  color: rgba(255, 255, 255, 0.683);
+}
+.text-gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(180deg,#f8cdff,#adedff);
+}
+.letter-spacing {
+  letter-spacing: .5vw;
+}
+a {
+  text-decoration: none;
+}
+.social-icon {
+  background-image: linear-gradient(180deg,#f8cdff,#adedff);
+  padding: 5px;
+}
+.linkedin-icon {
+  background-image: linear-gradient(180deg,#f8cdff,#adedff);
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 2px;
+}
+.twitter-icon {
+  background-image: linear-gradient(180deg,#f8cdff,#adedff);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/* .social-icon-card {
+  background-image: linear-gradient(180deg,#f8cdff,#adedff);
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+} */
