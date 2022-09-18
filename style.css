@@ -81,6 +81,12 @@ html, body {
   background-clip: text;
   background-image: linear-gradient(180deg,#f8cdff,#adedff);
 }
+.text-gradient-secondary {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(180deg,#c9f3ff,#f5b3ff);
+}
 .letter-spacing {
   letter-spacing: .5vw;
 }
@@ -111,3 +117,10 @@ a {
   height: 40px;
   border-radius: 10px;
 } */
+.skills-card {
+  /* border: solid 1px #adedff; */
+  margin-bottom: 15px;
+  /* border-right: solid 1px #adedff; */
+  /* border-left: solid 1px #adedff; */
+  /* border-bottom: solid 1px #adedff; */
+}
