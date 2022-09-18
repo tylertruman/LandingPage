@@ -82,10 +82,10 @@ html, body {
   background-image: linear-gradient(180deg,#f8cdff,#adedff);
 }
 .text-gradient-secondary {
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: linear-gradient(180deg,#c9f3ff,#f5b3ff);
+  color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  background-image: linear-gradient(180deg,#c9f3ff,#f5b3ff) !important;
 }
 .letter-spacing {
   letter-spacing: .5vw;
